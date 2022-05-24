@@ -14,7 +14,7 @@
     .from("#rind-right", {duration:2, drawSVG:0}, "rind")
 
     ;
-
+    return tl;
     }
 
     
@@ -29,7 +29,7 @@
 
        ;
 
-        
+        return tl;
     }
 
     
