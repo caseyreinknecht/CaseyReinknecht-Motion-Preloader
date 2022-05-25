@@ -10,8 +10,8 @@
  function rindMotion(){
     let tl = gsap.timeline();
 
-    tl.from("#rind-left", {duration:2, drawSVG:0}, "rind")
-    .from("#rind-right", {duration:2, drawSVG:0}, "rind")
+    tl.from("#Rindleft1", {duration:2, drawSVG:0}, "rind")
+    .from("#Rindright1", {duration:2, drawSVG:0}, "rind")
 
     ;
     return tl;
@@ -35,12 +35,6 @@
     
 
    
-
-    
-    
-
- 
-
 
 
  mainTL.add(rindMotion())
